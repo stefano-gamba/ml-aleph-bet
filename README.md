@@ -20,6 +20,7 @@
 
 | Algorithm | Notebook | Paradigm | Task | Time Complexity | Space Complexity |
 | :--- | :--- | :--- | :--- | :--- | :--- |
+| **Linear Regression** | [`notebooks/linear_regression.ipynb`](./notebooks/linear_regression.ipynb) | Supervised | Regression | $\mathcal{O}(N D^2 + D^3)$ (OLS) / $\mathcal{O}(E N D)$ (GD) | $\mathcal{O}(D^2)$ |
 | **K-Means Clustering** | [`notebooks/kmeans.ipynb`](./notebooks/kmeans.ipynb) | Unsupervised | Clustering | $\mathcal{O}(I \cdot K \cdot N \cdot D)$ | $\mathcal{O}(N \cdot D + K \cdot D)$ |
 | **K-Nearest Neighbors (KNN)** | [`notebooks/knn.ipynb`](./notebooks/knn.ipynb) | Supervised | Classification | $\mathcal{O}(N \cdot D + N \log K)$ | $\mathcal{O}(K)$ (streaming) |
 | **Single Artificial Neuron** | [`notebooks/neuron.ipynb`](./notebooks/neuron.ipynb) | Supervised | Binary Classification | $\mathcal{O}(E \cdot N \cdot D)$ | $\mathcal{O}(D)$ |
@@ -69,7 +70,7 @@ Navigate to the `notebooks/` folder and open any notebook to explore the theory,
 
 The following classical algorithms are planned for implementation from scratch in the next phase:
 
-- [ ] **Linear Regression**: Ordinary Least Squares (Closed-form Normal Equation) & Gradient Descent.
+- [x] **Linear Regression**: Ordinary Least Squares (Closed-form Normal Equation) & Gradient Descent.
 - [ ] **Logistic Regression**: Binary and Multi-class Softmax classification with Cross-Entropy Loss.
 - [ ] **Decision Trees & Random Forest**: Recursive tree building with Shannon Entropy, Information Gain, and Gini Impurity.
 - [ ] **Multi-Layer Perceptron (MLP)**: Modular forward/backward pass and backpropagation across multiple hidden layers.
